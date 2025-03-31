@@ -1,0 +1,53 @@
+body {
+    background: rgb(15, 15, 15);
+    color: rgb(238, 238, 238);
+    font-family: Arial, sans-serif;
+    /* add more space on left and right side */
+    padding: 0 20vw;
+}
+
+/* make first letter in p tag red and bold*/
+p::first-letter {
+    color: red;
+    font-weight: bold;
+}
+
+header {
+    background: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    margin-right: 10px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all 0.3s linear;
+    padding: 15px;
+}
+
+ul li a:hover {
+    color: rgb(196, 196, 196);
+    background: rgb(32, 32, 32);
+
+    transition: all 0.3s linear;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(196, 196, 196);
+    transition: all 0.3s linear;
+}
+
